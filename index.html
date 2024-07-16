@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <img  class="logo" src="/LEARN JAVASCRIPT/responsiveweb/img/rainbow-butterfly.jpg">
+            <h1>Fly-butter</h1>
+        </div>
+            <ul class="nav">
+                <li class="mobile"><a href="#">Home</a></li>
+                <li class="mobile"><a href="#">About</a></li>
+                <li class="mobile"><a href="#">Contact us</a></li>
+                <li class="mobile"><a href="#">Services</a></li>  <!--without href="#" your shoe hidden will not shown, it only blink-->
+                <li class="ham" onclick="showhidden()" title="menu"><a href="#"><svg fill="white"  xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="20px" height="50px"><path d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z"/></svg></a></li>
+            </ul>
+
+            <ul class="hidden">
+                <li class="mobile"><a href="#">Home</a></li>
+                <li class="mobile"><a href="#">About</a></li>
+                <li class="mobile"><a href="#">Contact us</a></li>
+                <li class="mobile"><a href="#">Services</a></li>
+                <li class="ham" onclick="hidehidden()" title="close menu"><a href=""><?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="30px" height="30px">    <path d="M 7 4 C 6.744125 4 6.4879687 4.0974687 6.2929688 4.2929688 L 4.2929688 6.2929688 C 3.9019687 6.6839688 3.9019687 7.3170313 4.2929688 7.7070312 L 11.585938 15 L 4.2929688 22.292969 C 3.9019687 22.683969 3.9019687 23.317031 4.2929688 23.707031 L 6.2929688 25.707031 C 6.6839688 26.098031 7.3170313 26.098031 7.7070312 25.707031 L 15 18.414062 L 22.292969 25.707031 C 22.682969 26.098031 23.317031 26.098031 23.707031 25.707031 L 25.707031 23.707031 C 26.098031 23.316031 26.098031 22.682969 25.707031 22.292969 L 18.414062 15 L 25.707031 7.7070312 C 26.098031 7.3170312 26.098031 6.6829688 25.707031 6.2929688 L 23.707031 4.2929688 C 23.316031 3.9019687 22.682969 3.9019687 22.292969 4.2929688 L 15 11.585938 L 7.7070312 4.2929688 C 7.5115312 4.0974687 7.255875 4 7 4 z"/></svg></a></li>
+            </ul>
+    </nav>
+<script>
+        function showhidden(){
+            var show=document.querySelector('.hidden')
+            show.style.display='flex'
+        }
+        function hidehidden(){
+            var hide=document.querySelector('.hidden')
+            hide.style.display='none'
+        }
+    </script>
+
+
+<section class="bg">
+<img src="/LEARN JAVASCRIPT/responsiveweb/img/1687859863115.jpeg" class="bgimg">
+<div class="hero">
+    <span class="spn1">Lets Learn Together</span>
+    <span class="spn2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, voluptatibus.</span>
+    <form action="" method="">
+        <input type="email">
+        <label>Subscribe Here</label>
+    </form>
+</div>
+</section>
+ 
+<section class="hero2">
+    <div class="left1">
+        <p>
+            <span class="2spn1"><h2>Why Choose WebDevelopment</h2></span>
+            <span class="2pn2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt fuga, voluptates voluptatibus porro molestiae facilis vitae eveniet, dolorum fugiat ea quam corporis labore sed exercitationem eaque iusto quas a quisquam amet ipsam ducimus impedit enim incidunt. Repellat esse molestiae facere ab mollitia nisi expedita saepe maxime neque, vel odit delectus!</span>
+        </p>
+    </div>
+    <div class="right1">
+        <img src="/LEARN JAVASCRIPT/responsiveweb/img/teacherindicates.jpeg">
+    </div>
+</section>
+
+<section class="hero3">
+    
+    <div class="right2">
+        <p>
+            <span class="3spn1"><h2>What is Web/Website</h2></span>
+            <span class="3spn2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt fuga, voluptates voluptatibus porro molestiae facilis vitae eveniet, dolorum fugiat ea quam corporis labore sed exercitationem eaque iusto quas a quisquam amet ipsam ducimus impedit enim incidunt. Repellat esse molestiae facere ab mollitia nisi expedita saepe maxime neque, vel odit delectus!</span>
+        </p>
+    </div>
+
+    <div class="left2">
+        <img src="/LEARN JAVASCRIPT/responsiveweb/img/studentfront.jpeg">
+    </div>
+</section>
+
+<section class="hero2">
+    <div class="left1">
+        <p>
+            <span class="2spn1"><h2>why need Website</h2></span>
+            <span class="2pn2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt fuga, voluptates voluptatibus porro molestiae facilis vitae eveniet, dolorum fugiat ea quam corporis labore sed exercitationem eaque iusto quas a quisquam amet ipsam ducimus impedit enim incidunt. Repellat esse molestiae facere ab mollitia nisi expedita saepe maxime neque, vel odit delectus!</span>
+        </p>
+    </div>
+    <div class="right1">
+        <img src="/LEARN JAVASCRIPT/responsiveweb/img/teacherindicates.jpeg">
+    </div>
+</section>
+
+<section class="hero3">
+    
+    <div class="right2">
+        <p>
+            <span class="3spn1"><h2>What is HTML,CSS,JAVASCRIPT</h2></span>
+            <span class="3spn2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt fuga, voluptates voluptatibus porro molestiae facilis vitae eveniet, dolorum fugiat ea quam corporis labore sed exercitationem eaque iusto quas a quisquam amet ipsam ducimus impedit enim incidunt. Repellat esse molestiae facere ab mollitia nisi expedita saepe maxime neque, vel odit delectus!</span>
+        </p>
+    </div>
+
+    <div class="left2">
+        <img src="/LEARN JAVASCRIPT/responsiveweb/img/studentfront.jpeg">
+    </div>
+</section>
+
+<section class="hero2">
+    <div class="left1">
+        <p>
+            <span class="2spn1"><h2>Features of HTML,CSS,JAVASCRIPT</h2></span>
+            <span class="2pn2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt fuga, voluptates voluptatibus porro molestiae facilis vitae eveniet, dolorum fugiat ea quam corporis labore sed exercitationem eaque iusto quas a quisquam amet ipsam ducimus impedit enim incidunt. Repellat esse molestiae facere ab mollitia nisi expedita saepe maxime neque, vel odit delectus!</span>
+        </p>
+    </div>
+    <div class="right1">
+        <img src="/LEARN JAVASCRIPT/responsiveweb/img/teacherindicates.jpeg">
+    </div>
+</section>
+
+<section class="hero3">
+    
+    <div class="right2">
+        <p>
+            <span class="3spn1"><h2>lorem lorem lorem</h2></span>
+            <span class="3spn2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt fuga, voluptates voluptatibus porro molestiae facilis vitae eveniet, dolorum fugiat ea quam corporis labore sed exercitationem eaque iusto quas a quisquam amet ipsam ducimus impedit enim incidunt. Repellat esse molestiae facere ab mollitia nisi expedita saepe maxime neque, vel odit delectus!</span>
+        </p>
+    </div>
+
+    <div class="left2">
+        <img src="/LEARN JAVASCRIPT/responsiveweb/img/studentfront.jpeg">
+    </div>
+</section>
+
+<section class="hero2">
+    <div class="left1">
+        <p>
+            <span class="2spn1"><h2>lorem lorem lorem</h2></span>
+            <span class="2pn2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt fuga, voluptates voluptatibus porro molestiae facilis vitae eveniet, dolorum fugiat ea quam corporis labore sed exercitationem eaque iusto quas a quisquam amet ipsam ducimus impedit enim incidunt. Repellat esse molestiae facere ab mollitia nisi expedita saepe maxime neque, vel odit delectus!</span>
+        </p>
+    </div>
+    <div class="right1">
+        <img src="/LEARN JAVASCRIPT/responsiveweb/img/teacherindicates.jpeg">
+    </div>
+</section>
+
+<section class="hero3">
+    
+    <div class="right2">
+        <p>
+            <span class="3spn1"><h2>lorem lorem lorem</h2></span>
+            <span class="3spn2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt fuga, voluptates voluptatibus porro molestiae facilis vitae eveniet, dolorum fugiat ea quam corporis labore sed exercitationem eaque iusto quas a quisquam amet ipsam ducimus impedit enim incidunt. Repellat esse molestiae facere ab mollitia nisi expedita saepe maxime neque, vel odit delectus!</span>
+        </p>
+    </div>
+
+    <div class="left2">
+        <img src="/LEARN JAVASCRIPT/responsiveweb/img/studentfront.jpeg">
+    </div>
+</section>
+<footer>
+    COPYRIGHT &COPY;ALL RIGHT RESERVED : 2022-24
+</footer>
+
+   
+
+</body>
+</html>

@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    position: sticky;
+    top: 0%;
+
+}
+h1{
+    color: white;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.logo{
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    /*width height same hoga tabhi radious 50% work karega*/
+    border-radius: 50%;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    gap: 30px;
+}
+.nav li{
+    list-style: none;
+    
+}
+.nav li a{
+    text-decoration: none;
+    color: aliceblue;
+    /*for button*/
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.nav li a:hover{
+    background-color: blueviolet;
+}
+@media only screen and (max-width: 768px) {
+    .nav .mobile{
+        display: none;
+    }
+    
+
+}
+@media only screen and (min-width: 768px) {
+    
+   .ham{
+        display: none;
+    }
+
+    form label{
+    flex-direction:row;
+    margin-top: 20px;
+    }
+.hero2{
+    flex: none;
+    
+
+}
+.hero3{
+flex-direction: column;
+
+}
+
+   
+}
+
+.hidden{
+position: fixed;
+top: 0px;
+right: 0px;
+width: 150px;
+height: auto;
+gap: 10px;
+background-color: rgba(114, 42, 207, 0.329);
+/*the are in group so*/
+display: flex;
+flex-direction:column;
+align-items: center;
+justify-content: center;
+margin-top: 35px;
+padding: 10px;
+border-radius: 10px;
+backdrop-filter: blur(20px);
+box-shadow: 20px solid black;
+display: none;
+}
+.hidden li{
+    list-style: none;
+}
+.hidden li a{
+    text-decoration: none;
+    color: aliceblue;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+.hidden li a:hover{
+    background-color: blueviolet;
+}
+.bg{
+height: 200px;
+}
+.bgimg{
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    z-index: -10;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.spn1{
+    font-size: 30px;
+    font-weight: 1000px;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+.spn2{
+    
+}
+form{
+    flex: none;
+}
+form input{
+    background-color: rgba(212, 42, 235, 0.623);
+    border-radius: 10px;
+    padding: 5px;
+}
+form label{
+    border-radius: 10px;
+    background-color: rgb(245, 221, 7);
+    padding:5px; 
+    border: 2px solid black;
+}
+form label:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+
+}
+.hero2{
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hero3{
+    width: 80vw;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+footer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: aliceblue;
+}
